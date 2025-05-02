@@ -1,10 +1,10 @@
-# Menggunakan image openjdk sebagai base image
-FROM openjdk:11-jre-slim
+# Menggunakan image openjdk dengan JDK sebagai base image
+FROM openjdk:11-jdk-slim
 
 # Set working directory dalam container
 WORKDIR /app
 
-# Salin file Java ke dalam container
+# Salin semua file Java ke dalam container
 COPY . /app
 
 # Kompilasi file Java
