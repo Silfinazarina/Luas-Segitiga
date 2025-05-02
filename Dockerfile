@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Kompilasi file Java
-RUN javac LuasSegitiga.java
+RUN javac Segitiga26.java
 
 # Tentukan perintah untuk menjalankan aplikasi
-CMD ["java", "LuasSegitiga"]
+CMD ["java", "Segitiga26"]
